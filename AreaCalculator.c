@@ -7,11 +7,11 @@ int main(int argc, char *argv[]) {
 		
 	float b;
 	float h;
-	float a ;
+	float a;
 	
-	printf("Digite o comprimento da base em metros  ");
+	printf("Digite o comprimento da base em metros:  ");
 	scanf("%f",&b);
-	printf("Digite o comprimento da altura em metros  ");
+	printf("Digite o comprimento da altura em metros:  ");
 	scanf("%f", &h);
 	a = b*h;
 	
@@ -19,4 +19,5 @@ int main(int argc, char *argv[]) {
 	system("\npause");
 	return 0;
 }
+
 
